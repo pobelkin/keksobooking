@@ -1,5 +1,5 @@
 {
-  "name": "keksobooking",
+  "name": "package.json",
   "version": "22.0.0",
   "private": true,
   "description": "Личный проект «{{projectTitle}}» от HTML Academy",
@@ -7,21 +7,19 @@
     "type": "git",
     "url": "{{sshUrl}}"
   },
-  "bugs": {
-    "url": "{{bugsUrl}}"
-  },
   "devDependencies": {
     "browser-sync": "2.26.14",
-    "eslint": "7.18.0",
-    "eslint-config-htmlacademy": "2.0.0"
+    "eslint": "8.16.0",
+    "eslint-config-htmlacademy": "5.1.2"
   },
   "license": "MIT",
-  "dependencies": {},
   "scripts": {
     "start": "browser-sync start --server --no-ui --files \"js/**/*.js\"",
     "test": "eslint js/"
   },
   "engines": {
     "node": ">=12.0.0"
-  }
+  },
+  "main": "index.js",
+  "author": ""
 }
